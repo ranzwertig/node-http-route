@@ -1,0 +1,7 @@
+{ "name" : "node-http-route"
+, "version" : "0.0.1"
+, "description" : "A small and lightweight http server including a router."
+, "author" : "Christian Ranz <info@christianranz.com>"
+, "main" : "lib/node-http-route"
+, "engines" : { "node" : ">=0.2.10" }
+}
