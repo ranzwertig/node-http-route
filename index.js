@@ -1,6 +1,7 @@
 var router = require("./lib/node-http-route");
 
 router.get("/test/file/", router.fileHandler("index.js"));
+router.get("/test/stream/", router.streamFileHandler("index.js"));
 
 router.get("/test/foo/", function(req, res) {
     res.sendText(200, "foo");
