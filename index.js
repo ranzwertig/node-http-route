@@ -4,12 +4,8 @@ router.get("/test/", function(req, res) {
     res.sendText(200, "test");
 });
 
-router.get("/hello/", function(req, res) {
-    res.sendText(200, "hello");
-});
-
-router.get("/foo/", function(req, res) {
-    res.redirect("/hello/");
+router.get("/test/foo/", function(req, res) {
+    res.sendText(200, "foo");
 });
 
 router.listen(8080, "127.0.0.1");
